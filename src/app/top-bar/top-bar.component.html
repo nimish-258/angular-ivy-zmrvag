@@ -1,0 +1,44 @@
+<!-- <header class="p-3 bg-dark text-white">
+  <div class="d-flex bd-highlight">
+    <div class="p-2 flex-grow-1 bd-highlight">MILK HABIT</div>
+
+    <div class="p-2 bd-highlight">
+      <button type="button" class="btn btn-warning">
+        <span><fa-icon [icon]="faShoppingCart"></fa-icon></span>
+      </button>
+    </div>
+  </div>
+</header> -->
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+<div class="container">
+  <a class="navbar-brand" href="#">Milk Habit</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive" [ngbCollapse]="isCollapsed">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
